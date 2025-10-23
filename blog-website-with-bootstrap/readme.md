@@ -1,6 +1,6 @@
 ##  Blog Website With Bootstrap
 Bu proje eğitim amaçlı oluşturulmuştur
-Projeyi incelemek için [Tıklayın]()
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-3/blog-website-with-bootstrap/)
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML 
