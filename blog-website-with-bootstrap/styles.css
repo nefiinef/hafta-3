@@ -1,3 +1,7 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +18,15 @@ p {
   .card {
     height: 900px;
   }
+}
+
+.card-header {
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-body {
+  max-height: 300px;
+  overflow-y: auto;
 }

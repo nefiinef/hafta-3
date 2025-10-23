@@ -20,22 +20,26 @@
 
 <body class="bg-dark">
   <header>
-    <nav class="bg-dark border-bottom border-light border-1 border-opacity-50">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark border-bottom border-light border-1 border-opacity-50">
       <div class="container">
-        <ul class="nav p-4 justify-content-end bg-dark">
-          <li class="nav-item align-self-center me-auto">
-            <a href="" class="nav-item pe-none">
-              <i class="bi bi-bluesky text-light fs-2"></i>
-            </a>
-          </li>
+        <a href="" class="navbar-brand pe-none">
+          <i class="bi bi-bluesky text-light fs-2"></i>
+        </a>
+        
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="navigation menu"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse " id="navMenu">
+        <ul class="navbar-nav ms-auto p-4 ">
           <li class="nav-item">
             <a class="nav-link text-light" href="index.html">Home</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link text-light" href="#blogs">Blogs</a>
           </li>
         </ul>
+        </div>
+        
       </div>
     </nav>
  
@@ -67,7 +71,7 @@
           <!-- Card 1-->
 
           <article class="col col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card mt-5" style="width: 100%; height: 850px">
+            <div class="card mt-5" style="width: 100%; height: auto;">
               <div class="ratio ratio-1x1" style="border-radius: inherit">
                 <img src="https://www.peramuseum.org/Repo/Collection/Images/osmanli-sultani-ve-hasekisi.jpg"
                   alt="The Ottoman Sultan and his Haseki" style="
@@ -76,11 +80,12 @@
                       border-radius: inherit;
                     " />
               </div>
-
-              <h6 class="card-header" style="border-radius: inherit">
+              <div class="card-header">
+              <h6 class="card-title" style="border-radius: inherit">
                 The Ottoman Sultan and His Haseki
               </h6>
-              <div class="card-body atio ratio-1x1" style="overflow: scroll">
+              </div>
+              <div class="card-body atio ratio-1x1" >
                 <p class="card-text">
                   Resimde, koyu bir arka plan önünde bir Osmanlı padişahı ve
                   haseki'si tasvir edilmiştir. İkisinin elleri birbirine doğru
@@ -111,7 +116,7 @@
           <!-- Card 2-->
 
           <article class="col col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card mt-5" style="width: 100%; height: 850px">
+            <div class="card mt-5" style="width: 100%; height: auto">
               <div class="ratio ratio-1x1" style="border-radius: inherit">
                 <img class="" src="https://www.peramuseum.org/Repo/Collection/Images/kahve-keyfi.jpg"
                   alt="Enjoying Coffee" style="
@@ -120,11 +125,12 @@
                       border-radius: inherit;
                     " />
               </div>
-
-              <h6 class="card-header" style="border-radius: inherit">
+              <div class="card-header">
+              <h6 class="card-title" style="border-radius: inherit">
                 Enjoying Coffee
               </h6>
-              <div class="card-body" style="overflow: scroll">
+              </div>
+              <div class="card-body" >
                 <p class="card-text">
                   Bu tabloda, kahve içen bir Osmanlı hanımı ve hizmetçisi,
                   dönemin modasına uygun kıyafetler giymiş olarak tasvir
@@ -149,7 +155,7 @@
           <!-- Card 3-->
 
           <article class="col col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card mt-5" style="width: 100%; height: 850px">
+            <div class="card mt-5" style="width: 100%; height: auto">
               <div class="ratio ratio-1x1" style="border-radius: inherit">
                 <img class=""
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jean_Baptiste_Vanmour_-_Sultan_Ahmet_III_Receiving_a_European_Ambassador_-_Google_Art_Project.jpg/1599px-Jean_Baptiste_Vanmour_-_Sultan_Ahmet_III_Receiving_a_European_Ambassador_-_Google_Art_Project.jpg"
@@ -159,12 +165,13 @@
                       border-radius: inherit;
                     " />
               </div>
-
-              <h6 class="card-header" style="border-radius: inherit">
+              <div class="card-header">
+              <h6 class="card-title mb-0" style="border-radius: inherit">
                 Sultan Ahmet III Receiving a European Ambassador
               </h6>
+              </div>
 
-              <div class="card-body" style="overflow: scroll">
+              <div class="card-body" >
                 <p class="card-text">
                   Bir elçi, Topkapı Sarayı'nın Üçüncü Avlusu'nun girişindeki
                   Arz Odası'na iki kapıcı refakatinde gelir ve padişah
