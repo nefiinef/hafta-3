@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif Display", serif;
+}
+p {
+  text-indent: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    height: 900px;
+  }
+}
