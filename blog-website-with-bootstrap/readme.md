@@ -4,7 +4,7 @@ Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-3/blog-web
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML 
-* Respınsive tasarım
+* Responsive tasarım
 * Cards
 * Jumbatron
 * Navigasyon
