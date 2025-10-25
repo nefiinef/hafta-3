@@ -1,7 +1,7 @@
 # İnstagram Clone
 
 Bu proje eğitim amaçlı oluşturulmuştur
-Projeyi incelemek için [Tıklayın]()
+Projeyi incelemek için [Tıklayın](https://nefiinef.github.io/hafta-3/instagram-clone/)
 
 ## Özellikler
 * Sayfa yapısı için semantik HTML 
